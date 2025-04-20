@@ -1,0 +1,414 @@
+* {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header-intro {
+    background-color: rgb(0, 59, 149);
+    font-family: Verdana;
+    width: 1265px;
+    height: 500px;
+    border-radius: 4px;
+}
+.header-intro-yellow-color {
+    color: rgb(255, 193, 7);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255 255 255 / 24%);
+    margin-left: 10px;
+    border-radius: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.main-heading {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 100px;
+    line-height: 100px;
+}
+.main-heading-green-color {
+    color: rgb(31, 149, 36);
+}
+.main-heading-yellow-color {
+    color: rgb(255, 193, 7);
+ }
+.home-button {
+    margin-left: 570px;
+}
+.about-button {
+    margin-left: 5px;
+
+}
+.explore-button {
+    margin-left: 5px;
+}
+
+.home-button,
+.about-button,
+.contact-button,
+.explore-button {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgb(255 255 255 / 24%);
+    cursor: pointer;
+    transition: padding-right 0.25s,
+    padding-left 0.25s,
+    padding-top 0.25s,
+    padding-bottom 0.25s;
+
+}
+.home-button:hover,
+.explore-button:hover,
+.about-button:hover,
+.contact-button:hover {
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.heading {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-left: 20px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.visit-now-button {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(31, 135, 219);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 250px;
+    display: inline-block;
+    transition: background-color 0.25s;
+
+}
+.visit-now-button:hover {
+    background-color: rgb(0, 59, 149);
+}
+.about-places-block {
+    margin-top: 20px;
+    background-color: rgb(96 96 96 / 6%);
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+.about-places {
+    margin-left: 100px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    font-family: Verdana;
+    display: inline-block;
+}
+.about-places-image {
+    width: 500px;
+    height: 300px;
+    margin-top: 00px;
+    border-radius: 12px;
+    vertical-align: top;
+    display: inline-block;
+}
+.about-places-hyper-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    vertical-align: top;
+    margin-left: 5px;
+
+}
+.about-places-hyper-link:hover {
+    text-decoration: underline;
+}
+.summary-para {
+    width: 550px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.travel-buddy-pros-cons-heading {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.travel-buddy-pros-cons {
+    background-color: rgb(96 96 96 / 4%);
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana;
+    height: 446px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 0px;
+    max-width: 512px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.3s ease;
+}
+.travel-buddy-pros-cons:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 5px 3px 4px rgba(0, 0, 0, 0.15);
+}
+.cons-red-color {
+    color: rgb(248, 113, 113);
+    font-weight: bold;
+}
+.cons-grey-color {
+    color:rgb(255, 193, 7);
+    font-weight: bold;
+}
+.with-travel-buddy-heading {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-left: 340px;
+    margin-top: 50px;
+}
+.pros-green-color {
+    color: rgb(81, 168, 0);
+    font-weight: bold;
+}
+.about-us-block,
+.why-us-block,
+.save-more-block {
+    height: 110px;
+    width: 350px;
+    font-family: Verdana;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 40px;
+    transition: box-shadow 0.29s;
+    display: inline-block;
+}
+.about-us-block:hover,
+.why-us-block:hover,
+.save-more-block:hover {
+    box-shadow: -2px 14px 18px 9px rgba(0, 0, 0, 0.25);
+}
+
+.about-us-heading,
+.why-us-heading,
+.save-more-heading {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.about-us-hyper-link,
+.why-us-hyper-link,
+.save-more-hyper-link {
+    font-size: 14px;
+    font-weight: lighter;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 59, 149);
+}
+.why-us-hyper-link:hover,
+.save-more-hyper-link:hover {
+    text-decoration: underline;
+
+}
+.why-us-button,
+.save-more-blcok-button {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(31, 135, 219);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 18px;
+    transition: background-color 0.25s;
+}
+.why-us-button:hover,
+.save-more-blcok-button:hover {
+    background-color: rgb(0, 59, 149);
+}
+.reviews {
+    width: 200px;
+    height: 200px;
+    font-family: Verdana;
+    font-size: 14px;
+    box-shadow: 1px 8px 20px 2px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.reviews-para {
+    width: 180px;
+    height: 180px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.reveiwer-intro {
+    display: block;
+    margin-top: 5px;
+ }
+.reveiwer-name {
+    font-weight: bold;
+    text-align: center;
+    line-height: 3px;
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 5px;
+}
+.question-block {
+    margin-left: 100px;
+    margin-top: 15px;
+    font-family: Verdana;
+    display: inline-block;
+    vertical-align: top;
+}
+.Question {
+    font-size: 18px;
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+    box-shadow: -1px 0px 2px 0.5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.answer {
+    width: 600px;
+    line-height: 26px;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    box-shadow: -1px 0px 2px 0.5px rgba(0, 0, 0, 0.25);
+}
+.end-about {
+    background-color: rgb(96 96 96 / 24%);
+    font-family: Arial;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.end-about-image {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.end-about-heading {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(255, 193, 7);
+    font-size: 19px;
+    margin-left: 4px;
+
+}
+.end-about-paragraph {
+    width: 700px;
+    line-height: 20px;
+}
+.bulit-with-button {
+    vertical-align: middle;
+    font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    border-color: rgb(255, 193, 7);
+    cursor: pointer;
+    border-bottom-style: inset;
+}
+.block {
+    display: block;
+
+}
+.inline-block {
+    display: inline-block;
+}
+.block-cursor {
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.end-about-location-block {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    color: rgb(0 0 0 / 44%);
+    display: inline-block;
+}
+.end-about-sub-heading {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.end-about-hyper-link {
+    margin-top: 10px;
+    text-decoration: underline;
+    color: grey;
+    font-size: 15px;
+    display: block;
+}
+.end-about-us {
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 21px;
+    vertical-align: top;
+}
+.end-about-other-tools {
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 21px;
+    vertical-align: top;
+}
+.end-about-social {
+    display: inline-block;
+    text-align: end;
+    vertical-align: bottom;
+}
+.social-sub-heading {
+    font-size: 14px;
+    color: grey;
+    vertical-align: middle;
+}
+.social-hyper-link {
+    vertical-align: middle;
+    margin-left: 3px;
+}
