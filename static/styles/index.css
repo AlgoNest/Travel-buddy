@@ -65,7 +65,10 @@
     border-radius: 16px;
     background-color: rgb(255 255 255 / 24%);
     cursor: pointer;
-    transition: padding 0.25s,
+    transition: padding-right 0.25s,
+        padding-left 0.25s,
+        padding-top 0.25s,
+        padding-bottom 0.25s,
     
 
 }
@@ -73,7 +76,10 @@
 .explore-button:hover,
 .about-button:hover,
 .contact-button:hover {
-    padding: 21px 11px;
+    padding-right: 21px;
+    padding-left: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     
 }
 .heading {
